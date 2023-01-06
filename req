@@ -1,0 +1,3 @@
+u='https://backend.orange.eg/api/V2/Account/GetDialInfo'
+			d='{"channel":{"ChannelName":"MobinilAndMe","Password":"ig3yh*mk5l42@oj7QAR8yF"},"CurrentVersion":"600","dial":"%s","isCoin":true,"lang":"ar","isEasyLogin":false,"password":"%s"}'%(number,password)
+			h={'_ctv':ctv, '_htv':htv, 'OsVersion':'Android10', 'AppVersion':'600', 'IsEasyLogin':'false', 'IsAndroid':'true', 'Content-Type':'application/json; charset=UTF-8', 'Content-Length':'193', 'Host':'backend.orange.eg', 'Connection':'Keep-Alive', 'Accept-Encoding':'gzip', 'User-Agent':'okhttp/3.14.9'}
