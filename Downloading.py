@@ -1,4 +1,9 @@
 import os
+R="\033[1;31m"
+G="\033[1;32m"
+
+
+print(G,"\n\n\tDownload from Facebook YouTube tiktok")
 try:
 	import wget
 except ImportError:
