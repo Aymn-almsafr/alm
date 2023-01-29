@@ -13,7 +13,7 @@ try:
 except ImportError:
 	os.system("pip install dragonxxdlib==0.6.2")
 
-inp1=input(" Enter a url : ")
+inp1=input(" \n\tEnter a url : ")
 
 url=(youtube(inp1))
 
