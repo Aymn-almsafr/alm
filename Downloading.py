@@ -3,7 +3,7 @@ R="\033[1;31m"
 G="\033[1;32m"
 
 
-print(G,"\n\n\tDownload from Facebook YouTube tiktok")
+print(G,"\n\n\tDownload from Facebook YouTube tiktok\n")
 try:
 	import wget
 except ImportError:
@@ -13,7 +13,7 @@ try:
 except ImportError:
 	os.system("pip install dragonxxdlib==0.6.2")
 
-inp1=input(" \n\tEnter a url : ")
+inp1=input("\t\t\tEnter a url : ")
 
 url=(youtube(inp1))
 
